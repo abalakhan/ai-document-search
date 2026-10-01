@@ -1,13 +1,21 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import { Nav } from "../components/nav";
+import { DocumentSearch } from "../features/document-search";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "AI Document Search" },
+    { name: "description", content: "Welcome to AI Document Search!" },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div className="flex min-h-dvh flex-col">
+      <Nav />
+      <main id="main-content" className="flex flex-1 flex-col">
+        <DocumentSearch />
+      </main>
+    </div>
+  );
 }

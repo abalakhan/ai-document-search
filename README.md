@@ -1,18 +1,9 @@
-# Welcome to React Router!
-
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+# AI Document Search
+Ask questions on your PDFs and get answers in human language. Using RAG and vector database.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+Allows to search information on PDFs using human language as input and output.
 
 ## Getting Started
 
@@ -80,8 +71,7 @@ Make sure to deploy the output of `npm run build`
 
 ## Styling
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
+[Tailwind CSS](https://tailwindcss.com/) 🎨
 ---
 
-Built with ❤️ using React Router.
+Built with ❤️ using React Router by [abalakhan](https://github.com/abalakhan)
