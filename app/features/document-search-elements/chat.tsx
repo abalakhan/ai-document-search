@@ -1,9 +1,10 @@
-import { SearchBar } from "./searchbar";
+import { InputBar } from "./inputbar";
 
 export function Chat() {
     return (
         <>
-            <SearchBar />
+            <InputBar />
+            
         </>
     );
 }

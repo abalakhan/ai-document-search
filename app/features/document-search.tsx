@@ -1,5 +1,6 @@
 import { Greeter } from "./document-search-elements/greeter"
 import { Chat } from "./document-search-elements/chat";
+import { SearchBar } from "./document-search-elements/inputbar";
 
 export function DocumentSearch() {
   return (
